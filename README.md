@@ -58,9 +58,6 @@ Launch the Job Application Tracker using the following command:
 - **Delete Application**: Select an application and click the delete button to remove it.
 - **Toggle Theme**: Use the toggle icon to switch between light and dark themes.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
