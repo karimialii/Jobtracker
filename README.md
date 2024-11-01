@@ -28,8 +28,11 @@ A job application tracker built with Python and Tkinter that helps users manage 
 
 ### Steps
 
-1. **Clone the repository**:
+Follow these steps to set up and run the Job Application Tracker application locally.
 
-   ```bash
-   git clone https://github.com/yourusername/job-application-tracker.git
-   cd job-application-tracker
+### 1. Clone the Repository
+Clone the repository from GitHub to your local machine.
+
+git clone https://github.com/yourusername/job-application-tracker.git
+cd job-application-tracker
+
