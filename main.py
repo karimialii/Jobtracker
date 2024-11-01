@@ -124,11 +124,19 @@ def new_application_popup():
         entries[field] = entry
 
     def submit():
-        if add_application(entries["Company Name"].get(), entries["Position"].get(), entries["Country"].get(), entries["City"].get(), entries["Notes"].get("1.0", "end-1c").strip() or "", entries["Job Description"].get("1.0", "end-1c").strip() or ""):
+        company_name = entries["Company Name"].get()
+        position = entries["Position"].get()
+        country = entries["Country"].get()
+        city = entries["City"].get()
+        notes = entries["Notes"].get("1.0", "end-1c").strip() if isinstance(entries["Notes"], tk.Text) else ""
+        job_description = entries["Job Description"].get("1.0", "end-1c").strip() if isinstance(entries["Job Description"], tk.Text) else ""
+        
+        if add_application(company_name, position, country, city, notes, job_description):
             popup.destroy()
             refresh_table()
         else:
             messagebox.showerror("Error", "Failed to add application.")
+
 
     tk.Button(popup, text="Add Application", command=submit, bg=current_theme["button_bg"], fg=current_theme["button_fg"], font=("Segoe UI", 10), bd=0, relief="flat", cursor="hand2").grid(row=len(fields), column=0, columnspan=2, pady=20)
 
