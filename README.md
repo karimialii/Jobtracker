@@ -12,7 +12,10 @@ A job application tracker built with Python and Tkinter that helps users manage 
 
 ## Screenshots
 
-*Add a screenshot of your application in light and dark modes here for better understanding.*
+![Light Mode Screenshot](Screenshots/LT.png)
+![Dark Mode Screenshot](Screenshots/DT.png)
+![New Application Screenshot](Screenshots/NA.png)
+
 
 ## Installation
 
