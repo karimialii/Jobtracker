@@ -41,14 +41,11 @@ Install the required dependencies listed in `requirements.txt`:
 ### 3. Set Up the Database
 Run the application, which will automatically create a SQLite database named `job_applications.db` if it doesn't already exist.
 
-### 4. Add Light and Dark Mode Icons
-Place `light_icon.png` and `dark_icon.png` in the project’s root directory, along with `New.png` and `Delete.png` icons for the add and delete buttons.
-
-### 5. Run the Application
+### 4. Run the Application
 Launch the Job Application Tracker using the following command:
 
 
-### 6. Using the Application
+### 5. Using the Application
 - **New Application**: Click the add button to enter a new job application.
 - **Delete Application**: Select an application and click the delete button to remove it.
 - **Toggle Theme**: Use the toggle icon to switch between light and dark themes.
