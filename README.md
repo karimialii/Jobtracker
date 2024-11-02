@@ -26,11 +26,6 @@ A job application tracker built with Python and Tkinter that helps users manage 
 - Python 3.x
 - Tkinter and Pillow libraries
 
-### Steps
-
-Follow these steps to set up and run the Job Application Tracker application locally.
-
-
 ## Steps
 
 Follow these steps to set up and run the Job Application Tracker application locally.
