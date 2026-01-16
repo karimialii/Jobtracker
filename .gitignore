@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+job_applications.db
 # C extensions
 *.so
 
